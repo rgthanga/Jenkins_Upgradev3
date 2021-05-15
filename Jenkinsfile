@@ -22,5 +22,10 @@ pipeline {
                         echo "Deploying in Production Area"
                   }
             }
+             stage('Live to Dr Prahalyaa') {
+                  steps {
+                        echo "Prahalyaat and Athava in Production"
+                  }
+            }
       }
 }
